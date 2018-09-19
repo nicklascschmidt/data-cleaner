@@ -6,22 +6,58 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Data Cleaner</a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="./campaign-data.html">Campaigns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./platform-data.html">Platforms</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+
     <div class="container">
 
-        <h1>Data Cleaner</h1>
+        <h2>Input Data Here</h2>
 
-        <div class="form-group">
-            <textarea class="form-control" id="input" rows="3" placeholder="email content here.." style="height:200px; width:500px;"></textarea>
-            <br>
-            <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+        <div class='row'>
+            <div class='col-8'>
+                <div class="form-group">
+                    <textarea class="form-control" id="input" rows="3" placeholder="email content here.." style="height:200px; width:500px;"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                </div>
+            </div>
+            <div class='col-4'>
+                <!-- Submit campaign -->
+                <div class="form-group">
+                    <textarea class="form-control" id="input-campaign" rows="2" placeholder="campaign here.." style="height:100px; width:200px;"></textarea>
+                    <button type="submit" class="btn btn-info" id="submitButtonCampaign">Submit</button>
+                </div>
+                <br>
+                <!-- Submit platform -->
+                <div class="form-group">
+                    <textarea class="form-control" id="input-platform" rows="2" placeholder="platform here.." style="height:100px; width:200px;"></textarea>
+                    <button type="submit" class="btn btn-info" id="submitButtonPlatform">Submit</button>
+                </div>
+            </div>
+
         </div>
-        
 
         <br>
 
         <div class="card">
             <div class="card-header">
-                <h4>Output Here
+                <h4>Output Data Here
                     <!-- <button class="btn btn-warning" id="copyButton">Copy text</button> -->
                 </h4>
             </div>
@@ -37,7 +73,8 @@
 
     
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./javascript.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+
 
 </body>
 </html>
