@@ -23,6 +23,7 @@ $(document).ready(function() {
         platformNames = JSON.parse(localStorage.getItem("platformNames"));
     } else {
         console.log('platformNames doesnt exist yet, populating now...');
+        platformNames = platformNameArray; // populated from ./data.js
 
         localStorage.setItem("platformNames", JSON.stringify(platformNames));
     }

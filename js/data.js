@@ -13,7 +13,7 @@ var campaignNameArray = ["Chrome","Chromebook US","Chromebook CA","GCP DR","POM"
 "Play Orson","Brand Editorial","Nest Pro B2B H2 2018","Chromebook US Q3","Orson","Nest EMEA Q3 2018 EMEA - Consumer DR",
 "Pixel NA '18 Q3 2018 US","Chrome DR","Chrome Brand (Birthday Campaign)"];
 
-var platformNames = ["DV3","YouTube","DV360","Google Preferred","Custom Algo","Platform: YouTube","Platform: DV360","Google SEM","GDN",
+var platformNameArray = ["DV3","YouTube","DV360","Google Preferred","Custom Algo","Platform: YouTube","Platform: DV360","Google SEM","GDN",
 "Bing SEM","Google SEM:","Bing SEM:","GDN:","Yahoo SEM:","Yahoo SEM","Yahoo Native:","Yahoo Native","TrueView",
 "Bing","Yahoo","Presto - Bing","GMB - Bing","Google GDN","[Google SEM]","[Yahoo SEM]","[Bing SEM]","[GDN]",
 "[Google Ads SEM]","GDN Cases","GDN US & CA","Google SEM US","Google SEM CA","Google Cases","GDN In-App",
@@ -22,3 +22,4 @@ var platformNames = ["DV3","YouTube","DV360","Google Preferred","Custom Algo","P
 "YT Brand","Spotify","DV360 Laptop Mag PG Deal","YT Brand","Spotify DV360","DV360 - Princesses and Moana Pre-Roll",
 "YT Brand  - 15MM, 40MM and Even Flighting Scenarios","YT Brand  - Burst","Yahoo Display","YouTube Music Scale Brand",
 "Bing SEM - Music"];
+
