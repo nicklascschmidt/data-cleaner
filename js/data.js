@@ -11,7 +11,8 @@ var campaignNameArray = ["Chrome","Chromebook US","Chromebook CA","GCP DR","POM"
 "YouTube Music DR Q2-Q4 2018","Project Fi Q3 2018","Google Assistant Q3 2018","Pixel NA '18 Q3 2018 United States",
 "Pixel NA '18 Q3 2018 Canada","Pixel Q3 US","Google Store Q3","Home Mini BD Q3","Pixelbook Q3 US","Play Evergreen",
 "Play Orson","Brand Editorial","Nest Pro B2B H2 2018","Chromebook US Q3","Orson","Nest EMEA Q3 2018 EMEA - Consumer DR",
-"Pixel NA '18 Q3 2018 US","Chrome DR","Chrome Brand (Birthday Campaign)"];
+"Pixel NA '18 Q3 2018 US","Chrome DR","Chrome Brand (Birthday Campaign)",'YouTube Music Scale Brand','YouTube TV DR',
+'Pro B2B H2 2018','Express DR','KOF'];
 
 var platformNameArray = ["DV3","YouTube","DV360","Google Preferred","Custom Algo","Platform: YouTube","Platform: DV360","Google SEM","GDN",
 "Bing SEM","Google SEM:","Bing SEM:","GDN:","Yahoo SEM:","Yahoo SEM","Yahoo Native:","Yahoo Native","TrueView",
@@ -21,5 +22,5 @@ var platformNameArray = ["DV3","YouTube","DV360","Google Preferred","Custom Algo
 "Yahoo SEM - Music","Google SEM - YTO","UAC - Music","Google SEM - PLAs","-Google SEM","YT BR+DR","DV360 DR",
 "YT Brand","Spotify","DV360 Laptop Mag PG Deal","YT Brand","Spotify DV360","DV360 - Princesses and Moana Pre-Roll",
 "YT Brand  - 15MM, 40MM and Even Flighting Scenarios","YT Brand  - Burst","Yahoo Display","YouTube Music Scale Brand",
-"Bing SEM - Music"];
+"Bing SEM - Music",'Always On','World Teachers Day'];
 
